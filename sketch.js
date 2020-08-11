@@ -10,7 +10,6 @@ function draw() {
   fill(255);
   textSize(24);
   textStyle("bold");
-  text(" ~ Tick - Tock Clock ~  :D", 100,400); 
   
 
 translate(200,200)
@@ -34,11 +33,11 @@ rotate (-90);
   let end3 = map(hr%12,0,12,-0,360);
   arc(0,0,260,260,0,end3);
   
- /* fill(255);
+  fill(255);
   textSize(24);
   textStyle("bold");
   text("Time : " + end3 + " : " + end2 + " : " + end , 50 , 400);
-*/
+
   push();
   rotate(end);
   stroke("blue");
