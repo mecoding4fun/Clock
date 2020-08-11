@@ -7,9 +7,6 @@ function draw() {
 
   background(0);
 
-  fill(255);
-  textSize(24);
-  textStyle("bold");
   
 
 translate(200,200)
